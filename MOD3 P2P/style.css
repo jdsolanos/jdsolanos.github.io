@@ -1,0 +1,51 @@
+* 	 {margin: 0; padding:0;}
+@font-face {font-family: 'fira';
+        src:url('FiraSansOT-Light.otf');
+	}
+.modA, .modB, .modC {
+    height: 120px;
+	width: 120px;
+	margin-left: 50px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #F2F1EE;
+	border: 1px solid #000;
+}
+.modA {
+    background-image: url(1.jpg);
+	border-radius:24px;
+	background-size:100% 100%;
+	box-shadow: -5px -5px 5px 5px #888;
+}
+.modB {
+	background-image: url(2.jpg);
+	background-clip: content-box;
+	border-radius:12px 36px;
+	background-size:100% 100%;
+	box-shadow: -5px -5px 5px #888;
+}
+.modC {	
+	background-image: url(3.jpg);
+	background-size:100% 100%;
+	border-radius: 50%;
+	box-shadow: inset -5px -5px 5px #888;
+}
+body{font-family: fira; }
+header{background-color: #000;
+
+		}
+#page-wrap {margin: 2% auto; color: white;}
+#page-wrap > .main {border: 1px solid #999; padding: 1%; margin-bottom: 1px; color: black;}
+header, nav, section{ background:#bbb;}
+section #titulo {text-align: center;}
+img #imagen {display: block;
+margin: auto;
+width: 90%;
+max-height: 410px;
+padding: 5%;}
+footer {background-color: #eee; text-align: center;
+}
+ 

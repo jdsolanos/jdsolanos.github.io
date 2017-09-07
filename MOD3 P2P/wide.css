@@ -1,0 +1,4 @@
+body {background-color: black;}
+
+#page-wrap:after {content: "Wide Layout";}
+section {float: right; width: 80%; height: 500px;}
